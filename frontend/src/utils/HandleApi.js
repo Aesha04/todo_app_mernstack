@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = "http://localhost:5000"
+const baseURL = "todo-app-mernstack-backend.vercel.app"
 const getAllToDo = (setToDo) => {
     axios.get(baseURL)
     .then(({data}) =>{
